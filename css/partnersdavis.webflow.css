@@ -1,0 +1,132 @@
+body {
+  min-height: 0px;
+  background-color: #1b314b;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  height: 47px;
+  margin: 10px 0px;
+  padding-bottom: 1px;
+  font-family:'Open Sans', sans-serif;
+  color: #a34040;
+  font-size: 80px;
+  line-height: 79px;
+  font-weight: 700;
+}
+h2 {
+  margin: 10px 0px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  display: block;
+  width: 245px;
+  height: 50px;
+  margin: 10px auto 5px;
+  padding-top: 10px;
+  border: 1px solid #f1f0ef;
+  border-radius: 7px;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+.container {
+  margin-top: 0px;
+}
+.comingsoon {
+  width: 150px;
+  height: 36px;
+  margin-left: 253px;
+  padding-top: 7px;
+  padding-right: 0px;
+  float: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+.logo {
+  display: block;
+  max-height: 50%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo-section {
+  display: block;
+  max-height: 50%;
+  margin-top: 219px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.email-address {
+  display: block;
+  width: 157px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 13px;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+}
+.email-address:hover {
+  border-color: #f1b703;
+  color: #f1b703;
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .logo {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .email-address {
+    width: 111px;
+    height: 36px;
+    margin-top: 11px;
+    padding-top: 8px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 479px) {
+}
