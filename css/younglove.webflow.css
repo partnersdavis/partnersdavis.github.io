@@ -6,7 +6,7 @@ body {
   line-height: 20px;
 }
 h1 {
-  margin-bottom: 0px;
+  margin-bottom: 41px;
   font-family:'Open Sans', sans-serif;
   color: white;
   font-size: 30px;
@@ -107,6 +107,11 @@ p {
   bottom: 199px;
   padding-right: 130px;
   padding-left: 130px;
+}
+.web-form-script {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (max-width: 991px) {
   h2 {
