@@ -1,5 +1,7 @@
 body {
   background-color: #4177a0;
+  background-image: url('../images/younglove-red.jpg');
+  background-size: cover;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
   font-size: 14px;
@@ -89,10 +91,10 @@ p {
   float: none;
   border: 1px solid white;
   border-radius: 4px;
-  font-family: Bitter, serif;
+  font-family:'Open Sans', sans-serif;
   color: white;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
   text-decoration: none;
 }
@@ -114,6 +116,9 @@ p {
   margin-left: auto;
 }
 @media (max-width: 991px) {
+  body {
+    background-position: 80% -3%;
+  }
   h2 {
     padding-left: 0px;
   }
@@ -129,6 +134,7 @@ p {
 @media (max-width: 767px) {
   h1 {
     font-size: 23px;
+    line-height: 27px;
   }
   h2 {
     padding-left: 0px;
@@ -144,8 +150,11 @@ p {
   }
 }
 @media (max-width: 479px) {
+  h1 {
+    font-size: 21px;
+  }
   h2 {
-    padding-right: 1px;
+    padding-right: 0px;
     padding-left: 0px;
     font-size: 14px;
     line-height: 21px;
@@ -155,9 +164,13 @@ p {
     padding-right: 20px;
     padding-left: 20px;
   }
+  .link {
+    width: auto;
+    font-size: 14px;
+  }
   .about-section {
     bottom: 45px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
