@@ -1,0 +1,158 @@
+body {
+  background-color: #4177a0;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-bottom: 0px;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.pd-logo {
+  position: static;
+  width: 100%;
+  opacity: 1;
+}
+.pd-logo-section {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.main-section {
+  position: static;
+  padding-top: 130px;
+}
+.link {
+  display: block;
+  width: 200px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  float: none;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+}
+.link:hover {
+  border-color: #1b314b;
+  color: #1b314b;
+}
+.about-section {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 199px;
+  padding-right: 130px;
+  padding-left: 130px;
+}
+@media (max-width: 991px) {
+  h2 {
+    padding-left: 0px;
+  }
+  .main-section {
+    padding-top: 50px;
+    padding-right: 145px;
+    padding-left: 145px;
+  }
+  .about-section {
+    bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 23px;
+  }
+  h2 {
+    padding-left: 0px;
+  }
+  .main-section {
+    padding-top: 50px;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+  .about-section {
+    padding-right: 115px;
+    padding-left: 115px;
+  }
+}
+@media (max-width: 479px) {
+  h2 {
+    padding-right: 1px;
+    padding-left: 0px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .main-section {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .about-section {
+    bottom: 45px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
