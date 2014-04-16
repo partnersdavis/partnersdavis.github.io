@@ -102,6 +102,14 @@ p {
   border-color: #1b314b;
   color: #1b314b;
 }
+.link.red {
+  border-color: #c60c46;
+  color: #c60c46;
+}
+.link.red:hover {
+  border-color: #333;
+  color: #333;
+}
 .about-section {
   position: fixed;
   left: 0px;
@@ -114,6 +122,16 @@ p {
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+.contact-form {
+  margin-top: 30px;
+  padding-top: 0px;
+}
+.form-container {
+  padding: 0px 25px 25px;
+  border: 1px solid #c60c46;
+  border-radius: 11px;
+  background-color: white;
 }
 @media (max-width: 991px) {
   body {
