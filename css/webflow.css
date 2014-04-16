@@ -117,11 +117,6 @@ fieldset {
   margin: 0;
   border: 0;
 }
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -142,6 +137,11 @@ input[type="submit"] {
   margin-top: 10px;
   padding: 10px;
   background-color: #ffdede;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 .w-input,
 .w-select {
@@ -202,6 +202,37 @@ textarea.w-select {
   color: white;
   border: 0;
   line-height: inherit;
+}
+.w-form-label {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+.w-checkbox,
+.w-radio {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+.w-checkbox:before,
+.w-radio:before,
+.w-checkbox:after,
+.w-radio:after {
+  content: " ";
+  display: table;
+}
+.w-checkbox:after,
+.w-radio:after {
+  clear: both;
+}
+.w-checkbox-input,
+.w-radio-input {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+  float: left;
+  margin-left: -20px;
 }
 .w-container {
   margin-left: auto;
@@ -1085,6 +1116,7 @@ textarea.w-select {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-[data-ix]:empty:after {
-  content: " ";
+[data-ix]:empty:after,
+[data-ix-affect]:empty:after {
+  content: "";
 }

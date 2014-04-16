@@ -1,6 +1,6 @@
 body {
   background-color: #4177a0;
-  background-image: url('../images/younglove-red.jpg');
+  background-image: url('../images/younglove-red-sm.jpg');
   background-size: cover;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
@@ -11,7 +11,7 @@ h1 {
   margin-bottom: 41px;
   font-family:'Open Sans', sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 36px;
   font-weight: 300;
   text-align: center;
@@ -21,7 +21,7 @@ h2 {
   margin-bottom: 10px;
   font-family:'Open Sans', sans-serif;
   color: white;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 26px;
   font-style: normal;
   font-weight: 400;
