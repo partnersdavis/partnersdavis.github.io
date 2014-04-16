@@ -128,10 +128,15 @@ p {
   padding-top: 0px;
 }
 .form-container {
-  padding: 0px 25px 25px;
+  width: 700px;
+  padding: 0px 0px 25px 50px;
+  float: none;
   border: 1px solid #c60c46;
   border-radius: 11px;
   background-color: white;
+}
+.contact-container {
+  padding-left: 120px;
 }
 @media (max-width: 991px) {
   body {
