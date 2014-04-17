@@ -129,14 +129,25 @@ p {
 }
 .form-container {
   width: 700px;
-  padding: 0px 0px 25px 50px;
+  padding: 0px 0px 25px;
   float: none;
   border: 1px solid #c60c46;
   border-radius: 11px;
   background-color: white;
 }
 .contact-container {
-  padding-left: 120px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.form-text {
+  font-family:'Open Sans', sans-serif;
+  color: white;
+}
+.hidden-form-container {
+  margin-top: 35px;
+}
+.logo-top {
+  text-align: left;
 }
 @media (max-width: 991px) {
   body {
